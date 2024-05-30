@@ -1,0 +1,45 @@
+.footer{
+    margin-top: 5%;
+    background-color: #0c0c0e;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+.footer .list-cont{
+    display: flex;
+}
+.footer .list-cont h4{
+    cursor: pointer;
+    margin-left: 2%;
+}
+.footer .list-cont h3{
+    margin-left: 18%;
+}
+.text-cont{
+    display: flex;
+}
+.text-cont h4{
+    margin-left: 2%;
+}
+
+.text-cont .follow-cont{
+    display: flex;
+    margin-left: 30%;
+}
+.text-cont .follow-cont img{
+cursor: pointer;
+ width: 30px;
+ height: 30px;
+ margin-top: 1%;
+ padding-left: 22px;
+}
+.text-cont  .app-cont{
+    margin-left: 20%;
+}
+.text-cont  .app-cont img{
+    cursor: pointer;
+ width: 30px;
+ height: 30px;
+ margin-top: 1%;
+ margin-left: 1%; 
+}

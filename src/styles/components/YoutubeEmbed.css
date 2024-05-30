@@ -1,0 +1,28 @@
+.youTube-cont {
+  
+  margin-top: 2%;
+  display: flex;
+
+}
+
+.youTube-cont .video-responsive {
+  margin-left: 2%;
+  color: white;
+ /* Make the video container take up available space */
+}
+
+.youTube-cont .video-responsive .video-cont{
+  display: flex;
+}
+.youTube-cont .video-responsive .video-cont p{
+  margin-left: 10px;
+}
+
+.video-details h3{
+  margin-left: 15%;
+}
+
+.video-details{
+  margin-left: 6%;
+  color: white;
+}

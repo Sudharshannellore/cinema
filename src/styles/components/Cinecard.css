@@ -1,0 +1,24 @@
+.card {
+  margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .movie-image {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    transition: width 0.3s, height 0.3s;
+  }
+  .movie-image:hover {
+    width: 270px;
+    height: 320px;
+
+  }
+  
+  .movie-title {
+    text-align: center;
+  }
+  

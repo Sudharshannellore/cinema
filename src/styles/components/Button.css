@@ -1,0 +1,41 @@
+.btn-slider{
+    background: black;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+  }
+  
+.btn-slider  span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+  
+.btn-slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: red;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+.btn-slider:hover {
+    color: #fff;
+  }
+  
+.btn-slider:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }

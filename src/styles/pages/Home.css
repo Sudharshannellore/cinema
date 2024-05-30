@@ -1,0 +1,12 @@
+.trend-cont{
+    display: flex;
+}
+
+.trend-cont h3{
+    color: white;
+}
+
+.trend-cont p{
+    margin-top: 35%;
+    margin-left: 2100%;
+}

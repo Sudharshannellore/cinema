@@ -1,0 +1,55 @@
+.horizontal-scroller-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.horizontal-scroller {
+  flex-grow: 1;
+  overflow-x: scroll;
+  white-space: nowrap;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+.horizontal-scroller::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.scroller-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.scroller-image {
+  display: inline-block;
+  width: 250px; /* Adjust the size as needed */
+  height: 250px;
+  margin-right: 10px; /* Adjust the spacing between images as needed */
+  transition: width 0.3s, height 0.3s;
+}
+.scroller-image:hover{
+  width: 280px; /* Adjust the size as needed */
+  height: 280px
+}
+
+.scroll-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 5px;  /* Reduced padding to make the button smaller */
+  font-size: 16px; /* Reduced font size to make the arrow smaller */
+  cursor: pointer;
+  z-index: 1;
+}
+
+.scroll-button.left {
+  position: absolute;
+  left: 0;
+}
+
+.scroll-button.right {
+  position: absolute;
+  right: 0;
+}
